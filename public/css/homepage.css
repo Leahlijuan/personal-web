@@ -1,0 +1,101 @@
+body {
+	/* background-color: black; */
+	background-image: url("/imgs/main.jpg"); 
+	background-size: cover;
+	background-repeat:   no-repeat;
+  
+}
+.navbar {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), 
+    url("/imgs/main.jpg");
+    background-attachment: fixed;
+    background-position: auto,center top;
+  }
+  .navbar-nav > li{
+    padding-left:20px;
+    padding-right:10px;
+  }
+canvas {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+}
+#container {
+	width: 30%;
+	margin: 20% auto;
+	margin-top: 20%; 
+	background: rgba(255,255,255,0.3);
+	text-align: center;	
+	
+}
+#container h1 {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.name {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px;
+	margin-top: 0;
+	padding-top: 0;
+}
+#container h1:before,
+#container h1:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+#container h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#container h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+  
+}
+
+
+.scroll-down {
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #222222;
+    text-align: center;
+    z-index: 6;
+}
+.glyphicon-chevron-down {
+	color: #FFFFFF;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+    animation-name: wiggle;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+
+

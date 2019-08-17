@@ -1,0 +1,29 @@
+{
+  "name": "leahlijuan.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "homepage": "https://leahlijuan.github.io/"
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leahlijuan/Leahlijuan.github.io.git"
+  },
+  "author": "Juan Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leahlijuan/Leahlijuan.github.io/issues"
+  },
+  "homepage": "https://github.com/Leahlijuan/Leahlijuan.github.io#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
